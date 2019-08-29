@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from './Aside.module.css';
 
 const Aside = () => {
     return (
-        <aside class="aside">
-            <nav class="aside__nav">
+        <aside className={styles.aside}>
+            <nav className={styles.aside__nav}>
             <a href="#">Profile</a>
             <a href="#">Messages</a>
             <a href="#">News</a>

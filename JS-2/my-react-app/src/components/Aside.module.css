@@ -1,0 +1,23 @@
+.aside {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    background-color: forestgreen;
+    display: flex;
+    height: 100%;
+  }
+  .aside__nav {
+    display: flex;
+    flex-direction: column;  
+    justify-content: flex-start;
+    align-content: center;
+    padding: 20px;
+  }
+  .aside__nav a {
+    font-size: 28px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 5px;
+  }
+  .aside__nav a:last-child{
+    margin-top: 35px;
+  }
