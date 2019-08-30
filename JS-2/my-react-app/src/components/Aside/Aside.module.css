@@ -12,12 +12,17 @@
     align-content: center;
     padding: 20px;
   }
-  .aside__nav a {
+ 
+  .link {
     font-size: 28px;
     color: #ffffff;
     text-decoration: none;
     margin-top: 5px;
   }
-  .aside__nav a:last-child{
+  .link:last-child{
     margin-top: 35px;
   }
+  .link.active {
+    color:#30ad10;
+  }
+ 

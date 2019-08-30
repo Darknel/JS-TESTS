@@ -1,0 +1,9 @@
+.header {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  background-color: forestgreen;
+}
+
+.header .logo {
+  color: #ffffff;
+}
